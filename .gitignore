@@ -1,0 +1,38 @@
+src/*.exe
+src/Vectrum
+src/test_Vectrum
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Vectrum
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Vectrum-qt
+Vectrum-Qt.app
+
+# Unit-tests
+Makefile.test
+Vectrum-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
+
+
+
+
+
