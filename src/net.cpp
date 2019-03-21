@@ -1531,7 +1531,7 @@ void static StartSync(const vector<CNode*> &vNodes) {
 
 void ThreadMessageHandler()
 {
-    SetThreadPriority(THREAD_PRIORITY_BELOW_NORMAL);
+    SetThreadPriority(THREAD_PRIORITY_VCTOW_NORMAL);
     while (true)
     {
         bool fHaveSyncNode = false;
